@@ -23,4 +23,17 @@ fn main() {
     // Char
     let letter: char = 'a';
     println!("This is a character: {}", letter);
+
+    // Tuples
+    let mut tup:(i32, bool, char) = (1, true, 's');
+    println!("{}", tup.0);
+    tup = (5, false, 'b');
+    println!("{}", tup.0);
+    println!("{}", tup.1);
+    println!("{}", tup.2);
+
+    // Arrays
+    let mut arr = [1,2,3,4,5];
+    arr[4] = 10;
+    println!("{}", arr[4]);
 }
